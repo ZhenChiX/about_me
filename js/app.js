@@ -19,13 +19,13 @@ var answer1 = prompt('Do you thing I have any sibling?');
 //     do this
 // }
 if (answer1 === 'yes' || answer1 === 'y') {
-	// right answer
+	//wrong answer
 	alert('Unfortunately I was born under the one child policy era, I always want to have one tho');
-	console.log('The user got the correct answer to #1 (NOPE, I have a sibling)');
+	console.log('The user got the wrong answer to #1 (NOPE, I have a sibling)');
 } else {
-	// wrong answer
+	//right answer
 	alert('Wish I have one!');
-	console.log('The user got the wrong answer to #1 (Yup,I am sibling-free)');
+	console.log('The user got the correct answer to #1 (Yup,I am sibling-free)');
 }
 // Tell user if they are wrong or right
 // Next question
@@ -51,7 +51,7 @@ if (answer2 === 'yes' || answer2 === 'y') {
 }
 var answer3 = prompt('I particiated seattle color run last year');
 if (answer3 === 'yes' || answer3 === 'y') {
-	// right answer
+	//right answer
 	alert('3 miles was not that hard,right');
 	console.log('The user got the correct answer to #3');
 } else {
@@ -59,13 +59,13 @@ if (answer3 === 'yes' || answer3 === 'y') {
 	alert('3 miles was not that hard,right');
 	console.log('The user got the wrong answer to #3');
 }
-var answer4 = prompt('As a chinese myself,do you think I like fortune cookie?');
+var answer4 = prompt('As a Chinese myself,do you think I like fortune cookie?');
 if (answer4 === 'yes' || answer4 === 'y') {
-	// right answer
-	alert('What is FORTUNE COOKIE!?');
-	console.log('The user got the correct answer to #4');
-} else {
 	//wrong answer
-	alert('IT IS NOT EVEN A THING!');
+	alert('What is FORTUNE COOKIE!?');
 	console.log('The user got the wrong answer to #4');
+} else {
+	//right answer
+	alert('IT IS NOT EVEN A THING!');
+	console.log('The user got the correct answer to #4');
 }
