@@ -1,46 +1,61 @@
-    .divBody {
+/*CSS FOR INDEX.HTML */
+
+
+
+.divBody {
     margin: auto;
-    width: 60%;
+    width: 60%; 
+    height: auto;
     border: 10% ;
     padding: 10% ;
     box-sizing:auto;
     }
 
-    body{background-color:black;
+    body{
+    background-image: url("https://i.imgur.com/LMZcfmj.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 
         
     }
 
 
- h1 { color:rgb(193, 33, 15);
-     font-family: 'Helvetica Neue', sans-serif; 
-     font-size: 12vw; 
-     font-weight: bold; 
-     letter-spacing: -1px; 
-     line-height: 1; 
-     text-align: center; 
+ h1 { color:rgb(5, 5, 5);
+        font-family:'georgia',serif;
+        font-size: 12vw; 
+        font-weight: bold; 
+        letter-spacing: -1px; 
+        line-height: 1; 
+        text-align: right; 
     
 
+    }  
 
+
+   
+
+
+
+    
 /* MENU BAR CSS */
-    }
+    
    .menu{
        text-align:center;
        width: auto;
-       height: auto;
+       padding: 5px;
+       background-color : white;       
    }
 
-    a   {
+    .nav {
     font-family: Arial, Helvetica, sans-serif;
     border : 3px solid white;
-    padding : 20px;
+    padding : 10px;
     margin:12px;
     text-transform: text-shadow; 
     text-align: left;
     font-weight: bold;
     text-decoration: none;
     box-sizing: border-box;
-    
     font-size: 2vw;
     letter-spacing: -1px; 
     color:rgb(247, 247, 247);
@@ -85,7 +100,7 @@ ol {
     border-radius : 15px;
     -moz-border-radius : 15px;
     -webkit-border-radius : 15px;
-    background-color : rgb(193, 33, 15);
+    background-color :rgb(5, 5, 5);
     text-align : center;
     position: relative;;
 
@@ -94,20 +109,20 @@ ol {
  /* CSS FOR TOPLIST.HTML */
    
 div.movie{
-    
-        font-size: 3vw;
+        
+        /* font-size: 3vw; */
         letter-spacing: -1px; 
-        color:rgb(247, 247, 247);
-        text-transform : text-shadow; 
+        /* color:rgb(247, 247, 247); */
+         
         text-align : center;
         font-weight: bold;
         display : grid;
         grid-template-columns : auto auto auto;
-        grid-gap : 50px 50px ;    
+        grid-gap : 20px 20px ;    
         align-content: center;
-         
+                
 }
-
+ 
 .grid1:hover,
 .grid2:hover,
 .grid3:hover,
@@ -119,14 +134,17 @@ div.movie{
 .grid9:hover,
 .grid10:hover{
     transform:scale(1.5);
-}
+} 
 .movie > div {
-    background-color: rgb(193, 33, 15);
+    background-color: rgb(5,5,5);
     padding:20px 10px; 
-
+    border : 8px solid white;
 }
 
-        
+.shrink{
+    max-width: 120px;
+}        
+
 
 
 /* p.bubble{
