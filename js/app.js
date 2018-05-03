@@ -75,5 +75,17 @@ if (answer4 === 'yes' || answer4 === 'y') {
 
 
 
+
 // SCRIPT FOR QUESTIONS.HTML
 
+
+
+
+function myFunction() {
+	document.getElementById('quiz1').innerHTML = myFunction;
+}
+
+
+function myFunction() {
+	document.getElementsByClassName('rightAnswer').innerHTML = myFunction;
+}
