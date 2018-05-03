@@ -1,5 +1,8 @@
 'use strict';
 
+//SCRIPT FOR INDEX.HTML
+
+
 // Ask for user's name
 var userName = prompt('Hi! What is your name!');
 
@@ -69,3 +72,8 @@ if (answer4 === 'yes' || answer4 === 'y') {
 	alert('IT IS NOT EVEN A THING!');
 	console.log('The user got the correct answer to #4');
 }
+
+
+
+// SCRIPT FOR QUESTIONS.HTML
+

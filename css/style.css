@@ -1,24 +1,60 @@
-div {
+    .divBody {
     margin: auto;
     width: 60%;
     border: 10% ;
     padding: 10% ;
+    box-sizing:auto;
     }
 
+    body{background-color:black;
 
+        
+    }
 
 
  h1 { color:rgb(193, 33, 15);
      font-family: 'Helvetica Neue', sans-serif; 
-     font-size: 13vw; 
+     font-size: 12vw; 
      font-weight: bold; 
      letter-spacing: -1px; 
      line-height: 1; 
      text-align: center; 
     
 
+
+/* MENU BAR CSS */
     }
-   
+   .menu{
+       text-align:center;
+       width: auto;
+       height: auto;
+   }
+
+    a   {
+    font-family: Arial, Helvetica, sans-serif;
+    border : 3px solid white;
+    padding : 20px;
+    margin:12px;
+    text-transform: text-shadow; 
+    text-align: left;
+    font-weight: bold;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+    font-size: 2vw;
+    letter-spacing: -1px; 
+    color:rgb(247, 247, 247);
+    
+    background-color: rgb(193, 33, 15);
+    border-radius : 15px;
+    border-radius : 15px; 
+    }
+    a:hover {
+        background-color: black ;
+    }
+/* MENU BAR CSS */
+
+
 p   { 
     font-size: 3vw;
     letter-spacing: -1px; 
@@ -36,11 +72,13 @@ ol {
     text-align: left;
     font-weight: bold;
     list-style-type: decimal;
+    box-sizing:border-box;
     }    
 
 
 
- li {
+
+  li{
     border : 8px solid white;
     padding : 20px;
     width : auto;
@@ -51,11 +89,46 @@ ol {
     text-align : center;
     position: relative;;
 
-    }
+ }
+
+ /* CSS FOR TOPLIST.HTML */
+   
+div.movie{
     
-    
- 
-    
+        font-size: 3vw;
+        letter-spacing: -1px; 
+        color:rgb(247, 247, 247);
+        text-transform : text-shadow; 
+        text-align : center;
+        font-weight: bold;
+        display : grid;
+        grid-template-columns : auto auto auto;
+        grid-gap : 50px 50px ;    
+        align-content: center;
+         
+}
+
+.grid1:hover,
+.grid2:hover,
+.grid3:hover,
+.grid4:hover,
+.grid5:hover,
+.grid6:hover,
+.grid7:hover,
+.grid8:hover,
+.grid9:hover,
+.grid10:hover{
+    transform:scale(1.5);
+}
+.movie > div {
+    background-color: rgb(193, 33, 15);
+    padding:20px 10px; 
+
+}
+
+        
+
+
 /* p.bubble{
 border : 8px solid white;
 padding : 20px;
@@ -67,8 +140,5 @@ background-color : rgb(193, 33, 15);
 
 sample from css3 page 321
 */
-
-body {background-color:black;
-}
 
 
