@@ -124,7 +124,7 @@ var score = 0
 //quiz1//
 function quizFunction1T() {
 	var number = score++;
-	alert("Let's continute then");
+	alert("Let's continue then");
 
 	document.getElementById('score').innerHTML = 'SCORE ' + score + ' / 5';
 
