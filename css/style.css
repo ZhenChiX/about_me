@@ -65,13 +65,13 @@
     border-radius : 15px; 
     }
     a:hover {
-        backgrou-color: black ;
+        background-color: black ;
     }
 /* MENU BAR CSS */
 
 
 p   { 
-    font-size: 2vw;
+    font-size:calc(16px + 1vw) ;
     letter-spacing: -1px; 
     color:rgb(247, 247, 247);
     text-transform: text-shadow; 
@@ -154,9 +154,12 @@ div.movie{
 
 .quizfont{
     font-family: 'Times New Roman', Times, serif;
-    
+   
+
+
 
 }
+
 
 
 /* p.bubble{

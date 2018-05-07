@@ -26,43 +26,53 @@
         <br>
         <hr>
         <br>
+        <p>Under construction, the hide/reveal feature not implemented yet.  </p>
+        <br>
         <p>Instruction: You will have to pass at least FOUR questions in order to reveal the last SECRET question.</p>
         <br>
         <br>
 
-        <p>score</p>
+        <p id="score">SCORE 0 / 5</p>
         <ol class="quizfont">
             <li>Click “Confirm” to continue.
                 <br>
 
-                <button id="quiz1" class="rightAnswer" onclick=quizFunction1T()>Confirm</button>
-                <button class="wrongAnswer" onclick=quizFunction1F()>Forfeit</button>
+                <button onclick="quizFunction1T() ; this.onclick=null;">Confirm</button>
+                <button onclick="quizFunction1F(); this.onclick=null;">Forfeit</button>
             </li>
             <li>Is it Day or Night now?
                 <br>
-                <button id="quiz2" class="rightAnswer" onclick=quizFunction2T()>Day</button>
-                <button class="wrongAnswer" onclick=quizFunction2F()>Night</button>
+                <button onclick="quizFunctionDay();this.onclick=null;">Day</button>
+                <button onclick="quizFunctionNight() ; this.onclick=null;">Night</button>
             </li>
             <li>What is the degree of the polynomial
-                <br> <br>
-                5x<sup>3</sup> - 8x + 3x<sup>5</sup> + 4x<sup>2</sup> - 7x<sup>4</sup> + 1?
-<br><br>
-                <button class="wrongAnswer" onclick=quizFunction3F()>3</button>
-                <button class="wrongAnswer" onclick=quizFunction3F()>4</button>
-                <button id="quiz3"class="rightAnswer" onclick=quizFunction3T()>5</button>
-                <button class="wrongAnswer" onclick=quizFunction3F()>6</button>
+                <br>
+                <br> 5x
+                <sup>3</sup> - 8x + 3x
+                <sup>5</sup> + 4x
+                <sup>2</sup> - 7x
+                <sup>4</sup> + 1?
+                <br>
+                <br>
+                <button onclick="quizFunction3F(); this.onclick=null;">3</button>
+                <button onclick="quizFunction3F(); this.onclick=null;">4</button>
+                <button onclick="quizFunction3T(); this.onclick=null;">5</button>
+                <button onclick="quizFunction3F(); this.onclick=null;">6</button>
             </li>
             <li>In a year, there are 12 months. Seven months have 31 days. How many months have 28 days?
                 <br>
-                <button class="wrongAnswer" onclick=quizFunction4F()>1</button>
-                <button class="wrongAnswer" onclick=quizFunction4F()>4</button>
-                <button id="quiz4" class="rightAnswer" onclick=quizFunction4T()>5</button>
-                <button class="wrongAnswer" onclick=quizFunction4F()>12</button>
+                <button onclick="quizFunction4F(); this.onclick=null;">1</button>
+                <button onclick="quizFunction4F(); this.onclick=null;">4</button>
+                <button onclick="quizFunction4F(); this.onclick=null;">5</button>
+                <button onclick="quizFunction4T(); this.onclick=null;">12</button>
             </li>
             <li>
                 Type “forward” in the input box to move forward
                 <br>
-                <input id ='forward' type="text", value="type in here">
+
+                <input id="numb" type=text value='type in here'>
+                <button type="button" onclick="quizFunction5T(); this.onclick=null;">Sumbit</button>
+
             </li>
 
 

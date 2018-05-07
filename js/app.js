@@ -122,7 +122,91 @@ function startFunction() {
 //FUNCTION FOR QUESTIONS.HTML//
 var score = 0
 //quiz1//
-function quizFunction1T(){
-alert("Let's continute then");
-document.getElementById('quiz1').innerHTML= score++ ;
+function quizFunction1T() {
+	var number = score++;
+	alert("Let's continute then");
+
+	document.getElementById('score').innerHTML = 'SCORE ' + score + ' / 5';
+
+
+}
+//quiz2//
+
+//Day button//
+
+function quizFunctionDay() {
+	var hour = new Date().getHours();
+	if (hour < 20 && hour > 6) {
+		var number = score++
+		console.log('Day');
+		document.getElementById('score').innerHTML = 'SCORE ' + score + ' / 5';
+
+	}
+	else { }
+}
+//Night button//
+function quizFunctionNight() {
+	var hour = new Date().getHours();
+
+	if (hour < 6 || hour > 18) {
+		var number = score++
+		console.log('night');
+		document.getElementById('score').innerHTML = 'SCORE ' + score + ' / 5';
+
+	}
+	else { }
+
+}
+
+// var date = new Date();
+// var hours = date.getHours();
+
+// if (hours < 20 && hours > 6) {
+// 	var number = score++
+// 	console.log('Day');
+// 	document.getElementById('score').innerHTML = 'SCORE ' + score + ' / 5';
+// }
+
+// else {
+// 	var number = score++
+// 	console.log('night');
+// 	document.getElementById('score').innerHTML = 'SCORE ' + score+ + ' / 5';
+// }
+
+
+//quiz3//
+function quizFunction3T() {
+	var number = score++;
+	alert("Perfect");
+	console.log('Correct answer');
+	document.getElementById('score').innerHTML = 'SCORE ' + score + ' / 5';
+
+
+
+}
+
+//quiz4//
+function quizFunction4T() {
+	var number = score++;
+	alert("Nicely Done");
+	console.log('Correct answer');
+	document.getElementById('score').innerHTML = 'SCORE ' + score + ' / 5';
+
+
+
+
+}
+
+//quiz5//
+function quizFunction5T() {
+	var result, text;
+	result = document.getElementById('numb').value;
+	if (result == 'forward') {
+		var number = score++;
+		console.log('Correct answer');
+		document.getElementById('score').innerHTML = 'SCORE ' + score + ' / 5';
+	}
+
+
+
 }
